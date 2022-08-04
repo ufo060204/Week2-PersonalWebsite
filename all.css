@@ -1,0 +1,220 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* css reset end */
+
+body{
+    font-family: 'Roboto',-apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft JhengHei", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 500;
+}
+img {
+    vertical-align: middle;
+  }
+h1{
+    font-size: 80px;
+    line-height: 106px;
+    font-weight: 900;
+}
+.title{
+    font-size: 64px;
+    line-height: 75px;
+    padding-top: 64px;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.container_283{
+    width: 283px;
+    margin: 0 auto;
+}
+.container_304{
+    width: 304px;
+    margin: 0 auto;
+}
+.container_384{
+    width: 384px;
+    margin: 0 auto;
+}
+
+.mb_4{
+    margin-bottom: 4px;
+}
+.mb_8{
+    margin-bottom: 8px;
+}
+.mb_12{
+    margin-bottom: 12px;
+}
+.mb_16{
+    margin-bottom: 16px;
+}
+.mb_20{
+    margin-bottom: 20px;
+}
+.mb_24{
+    margin-bottom: 24px;
+}
+.mb_28{
+    margin-bottom: 28px;
+}
+.mb_32{
+    margin-bottom: 32px;
+}
+.mb_40{
+    margin-bottom: 40px;
+}
+.mb_48{
+    margin-bottom: 48px;
+}
+.mb_56{
+    margin-bottom: 56px;
+}
+.mb_68{
+    margin-bottom: 68px;
+}
+.pt_28{
+    padding-top: 28px;
+}
+
+
+.text_white{
+    color: #FFFFFF;
+}
+.fw_700{
+    font-weight: 700;
+}
+.fw_900{
+    font-weight: 900;
+}
+
+
+.text_p_2436{
+    font-size: 24px;
+    line-height: 36px;
+}
+.text_p_2442{
+    font-size: 24px;
+    line-height: 42px;
+}
+.text_p_2030{
+    font-size: 20px;
+    line-height: 30px;
+}
+.text_p_2042{
+    font-size: 20px;
+    line-height: 42px; 
+}
+
+
+.text_center{
+    text-align: center;
+}
+
+/* header */
+.header{
+    background-image: url(img/banner.png);
+    background-size: cover;
+    background-position: center center;
+    padding: 308px 0;
+}
+.icon{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* about */
+.about{
+    padding-bottom: 56px;
+}
+.bt{
+    border-top: 1px solid #000000;
+}
+.circle{
+    height: 22px;
+    width: 22px;
+    background: #891818;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 16px;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* brand */
+.brand{
+    background-color: #000000;
+    padding-bottom: 160px;
+}
+.brand-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px 24px;
+}
+
+/* work */
+.work-list{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 144px;
+}
+.work-list-item{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* contact */
+.contact{
+    background-color: #000000;
+    padding-bottom: 64px;
+}
