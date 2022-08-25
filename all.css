@@ -60,6 +60,11 @@ h1{
     line-height: 106px;
     font-weight: 900;
 }
+.d-flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .title{
     font-size: 64px;
     line-height: 75px;
@@ -166,7 +171,10 @@ h1{
 }
 .icon{
     display: flex;
-    justify-content: space-between;
+    gap: 16px;
+}
+.icon img:hover{
+    transform: scale(1.2);
 }
 
 /* about */
@@ -176,18 +184,14 @@ h1{
 .bt{
     border-top: 1px solid #000000;
 }
-.circle{
+.circle::before{
+    content: '';
     height: 22px;
     width: 22px;
     background: #891818;
     border-radius: 50%;
     display: inline-block;
     margin-right: 16px;
-}
-.center{
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 /* brand */
@@ -204,17 +208,29 @@ h1{
 
 /* work */
 .work-list{
-    display: flex;
-    flex-direction: column;
     padding-bottom: 144px;
 }
 .work-list-item{
     display: flex;
     justify-content: space-between;
 }
+.work-list-item a{
+    text-decoration: none;
+    color: #000000;
+}
+.work-list-item a:hover{
+    color: #891818;
+}
 
 /* contact */
 .contact{
     background-color: #000000;
     padding-bottom: 64px;
+}
+footer a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+footer a:hover{
+    font-size: 26px;
 }
