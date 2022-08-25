@@ -212,7 +212,7 @@ h1{
 }
 .work-list-item{
     display: flex;
-    justify-content: space-between;
+    gap: 24px;
 }
 .work-list-item a{
     text-decoration: none;
